@@ -1,0 +1,18 @@
+- make html page with the Todo List commands
+- prompt for new command, 
+if it is new: 
+ prompt for item until new command
+- if delete: prompt for index
+
+-main prompt: what would you like to do
+
+Tipps:
+- while loop asking for input, until quit
+- first get quit to work
+
+- to dos stored in an array
+- start with empty array as a let
+
+- when printing items, printing index too
+
+- splice for removing
