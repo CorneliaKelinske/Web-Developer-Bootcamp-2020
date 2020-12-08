@@ -8,7 +8,9 @@ while (input !== 'quit') {
     }
     if (input === 'list') {
         console.log("list loop");
-        console.log(list);
+        for (let item of list) {
+            console.log(`${list.indexOf(item)} : ${item}`);
+        }
     }
     input = prompt('What do you want to do?');
 }
