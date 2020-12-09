@@ -12,6 +12,11 @@ while (input !== 'quit') {
             console.log(`${list.indexOf(item)} : ${item}`);
         }
     }
+
+    if (input === 'delete') {
+        list.splice(prompt('type the index of the item that you would like to remove'), 1);
+        console.log(list);
+    }
     input = prompt('What do you want to do?');
 }
 console.log("You quit!");
